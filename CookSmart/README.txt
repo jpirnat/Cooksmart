@@ -1,0 +1,1 @@
+Change website's database username/password in dbinfo.php

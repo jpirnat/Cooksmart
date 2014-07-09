@@ -1,0 +1,152 @@
+body
+{
+	width: 850px;
+	padding: 105px 0px 40px 0px;
+	margin-left: 4px;
+	margin-right: 0px;
+	font-family: FranklinGothicFSCdRegular;
+	font-size: 1.2em;
+	font-weight: 500;
+	background-color: #eaeaea;
+}
+
+
+#header
+{
+	background-color: #1be21b;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	height: auto;
+	margin-left: -4px;
+	border-bottom: silver;
+	border-bottom-style: ridge;
+	border-bottom-width: 2px;
+	border-bottom-left-radius: 10px;
+	white-space: nowrap;
+}
+
+#header h1
+{
+	display: inline;
+	color: white;
+	font-size: 50pt;
+	text-decoration: none;
+	padding-left: 30px;
+	font-family: Arial, sans-serif;
+}
+
+h2
+{
+	font-family: Verdana, sans-serif;
+	color: black;
+	font-weight: normal;
+	font-size: 14pt;
+}
+
+#header a
+{
+	text-decoration: none;
+}
+
+#right_header
+{
+	float: right;
+	vertical-align: top;
+	padding-right: 10px;
+}
+
+.navbar
+{
+	padding-bottom: 7px;
+	padding-left: 10px;
+}
+
+.navbar a	
+{
+	background-color: #38ab38;
+	font-weight: bold;
+	font-size: 11pt;
+	margin: 0px 2px 0px 2px;
+	padding: 1px 2px 0px 2px;
+	color: #11111a;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+}
+
+.navbar a:hover
+{
+	text-decoration: underline;
+	border-style: outset;
+	border-color: lime;
+}
+
+.navbar a:active
+{
+	text-decoration: underline;
+	border-style: outset;
+	border-color: lime;
+	border-width: 2px;
+}
+
+.home_recipe
+{
+	margin: 0px 0px 8px 3px;
+	padding: 4px 0px 3px 3px;
+	font-family: Verdana, sans-serif;
+	font-size: 10pt;
+	letter-spacing: 0.25px;
+	box-shadow: 1px 2px 2px 2px #bbc3bb;
+	border-radius: 5px;
+	background-color: white;
+
+}
+
+.home_recipe a { text-decoration: none; }
+
+.home_recipe img { max-height: 150px; max-width: 200px; }
+
+.recipename { color: green; font-size: 11pt; padding-bottom: 2px; }
+
+.home_recipe a:visited { color: #555; }
+
+.friends
+{
+	padding: 5px 20px 3px 5px;
+	box-shadow: 1px 2px 2px 2px #8bcc8b;
+	border-radius: 5px;
+	border-bottom: 1px solid black;
+	margin-bottom: 15px;
+	background-color: #d9eddc;
+	width: intrinsic;
+
+}
+
+.friends p
+{
+	line-height: 7px;
+}
+
+table.msg { background-color:#FFFFCC; }
+
+td.msg_cell { border-bottom: 1px grey groove; box-shadow: 1px 1px 1px grey; }
+
+td.msg_topcell { border-bottom: 1px #676767 groove; box-shadow: 1px 1px 1px grey; font-weight: bold; margin-bottom: 1px;}
+
+#footer
+{
+	position: fixed;
+	bottom: 0px;
+	height: 40px;
+	background-color: #1be21b;
+	width: 100%;
+	margin-left: -4px;
+	border-top-color: silver;
+	border-top-style: ridge;
+	border-top-width: 1px;
+	border-top-left-radius: 5px;
+}
